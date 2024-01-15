@@ -1,0 +1,86 @@
+body {
+    background-color: lightpink;
+}
+
+header {
+    height: 8rem;
+}
+
+h1{
+    padding-left: 2%;
+}
+main {
+    background-color: white;
+    height: 19rem;
+    padding: 4% 5% 7% 3% ;
+    display: flex;
+    
+}
+
+nav {
+    width: 25%;
+}
+nav ul {
+    list-style: none;
+    /* text-align: center; */
+   display: flex;
+   justify-content: space-between;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+#section-1 {
+    width: 50%;
+}
+
+#section-2 {
+    padding-left: 10%;
+}
+
+footer {
+    text-align: center;
+}
+
+
+ @media screen and (max-width: 600px) {
+
+    header {
+        height: 11rem;
+    }
+    h1 {
+        text-align: center;
+    }
+    .nav{
+        display: flex;
+        justify-content: center;
+    }    
+    nav ul{
+        display: block;                        
+    }
+
+    main {
+        display: block;
+    }
+
+    #section-2 {
+        padding: 0;
+    }
+}
+
+
+**Mobile First approach and Media Queries:**
+
+1. Add a media query for screens with a maximum width of 600px.
+2. Inside the media query, modify the styles of the elements to make them more suitable for mobile devices (e.g., center-align the header, stack the navigation vertically).
+
+
+
+
+
+
+
+
+
